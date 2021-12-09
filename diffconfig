@@ -1,0 +1,236 @@
+CONFIG_TARGET_omap=y
+CONFIG_TARGET_omap_DEVICE_ti_am335x-miet=y
+CONFIG_TARGET_BOARD="omap"
+CONFIG_DEVEL=y
+CONFIG_TOOLCHAINOPTS=y
+# CONFIG_BUSYBOX_DEFAULT_FEATURE_IPV6 is not set
+CONFIG_DROPBEAR_ECC=y
+CONFIG_DROPBEAR_ECC_FULL=y
+CONFIG_ETHTOOL_PRETTY_DUMP=y
+CONFIG_EXTRA_BINUTILS_CONFIG_OPTIONS="--enable-gold"
+# CONFIG_GCC_USE_VERSION_8 is not set
+CONFIG_GCC_USE_VERSION_9=y
+CONFIG_GCC_VERSION="9.3.0"
+CONFIG_GCC_VERSION_9=y
+CONFIG_IMAGEOPT=y
+CONFIG_IPERF_ENABLE_MULTICAST=y
+# CONFIG_IPV6 is not set
+# CONFIG_KERNEL_IPV6 is not set
+# CONFIG_LUCI_CSSTIDY is not set
+# CONFIG_LUCI_JSMIN is not set
+CONFIG_OPENSSL_ENGINE=y
+CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+CONFIG_OPENSSL_WITH_ASM=y
+CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_DEPRECATED=y
+CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+CONFIG_OPENSSL_WITH_PSK=y
+CONFIG_OPENSSL_WITH_SRP=y
+CONFIG_OPENSSL_WITH_TLS13=y
+CONFIG_PACKAGE_arp-scan=y
+CONFIG_PACKAGE_arp-scan-database=y
+CONFIG_PACKAGE_block-mount=y
+CONFIG_PACKAGE_boost=y
+CONFIG_PACKAGE_boost-container=y
+CONFIG_PACKAGE_boost-json=y
+CONFIG_PACKAGE_boost-program_options=y
+CONFIG_PACKAGE_boost-system=y
+CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_collectd=y
+CONFIG_PACKAGE_collectd-mod-cpu=y
+CONFIG_PACKAGE_collectd-mod-cpufreq=y
+CONFIG_PACKAGE_collectd-mod-ethstat=y
+CONFIG_PACKAGE_collectd-mod-exec=y
+CONFIG_PACKAGE_collectd-mod-interface=y
+CONFIG_PACKAGE_collectd-mod-iptables=y
+CONFIG_PACKAGE_collectd-mod-iwinfo=y
+CONFIG_PACKAGE_collectd-mod-load=y
+CONFIG_PACKAGE_collectd-mod-memory=y
+CONFIG_PACKAGE_collectd-mod-network=y
+CONFIG_PACKAGE_collectd-mod-processes=y
+CONFIG_PACKAGE_collectd-mod-rrdtool=y
+# CONFIG_PACKAGE_dnsmasq is not set
+CONFIG_PACKAGE_ebtables=y
+CONFIG_PACKAGE_ebtables-utils=y
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_evtest=y
+CONFIG_PACKAGE_fdisk=y
+CONFIG_PACKAGE_gdbserver=y
+CONFIG_PACKAGE_gpiod-tools=y
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_ifstat=y
+CONFIG_PACKAGE_iftop=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_iperf=y
+CONFIG_PACKAGE_iperf3=y
+CONFIG_PACKAGE_iptables-mod-account=y
+CONFIG_PACKAGE_iptables-mod-condition=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_iptables-mod-filter=y
+CONFIG_PACKAGE_iptables-mod-iface=y
+CONFIG_PACKAGE_iptables-mod-ipmark=y
+CONFIG_PACKAGE_iptables-mod-ipopt=y
+CONFIG_PACKAGE_iptables-mod-iprange=y
+CONFIG_PACKAGE_iptables-mod-ipv4options=y
+CONFIG_PACKAGE_iptables-mod-length2=y
+CONFIG_PACKAGE_iptables-mod-logmark=y
+CONFIG_PACKAGE_iptables-mod-nflog=y
+CONFIG_PACKAGE_iptables-mod-nfqueue=y
+CONFIG_PACKAGE_iptables-mod-proto=y
+CONFIG_PACKAGE_iptables-mod-tee=y
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+CONFIG_PACKAGE_iptables-mod-u32=y
+CONFIG_PACKAGE_iptables-mod-ulog=y
+CONFIG_PACKAGE_iptaccount=y
+CONFIG_PACKAGE_iptraf-ng=y
+CONFIG_PACKAGE_kmod-crypto-crc32c=y
+CONFIG_PACKAGE_kmod-crypto-hash=y
+CONFIG_PACKAGE_kmod-dummy=y
+CONFIG_PACKAGE_kmod-ebtables=y
+CONFIG_PACKAGE_kmod-fou=y
+CONFIG_PACKAGE_kmod-gre=y
+CONFIG_PACKAGE_kmod-hid=y
+CONFIG_PACKAGE_kmod-hid-generic=y
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-input-core=y
+CONFIG_PACKAGE_kmod-input-evdev=y
+CONFIG_PACKAGE_kmod-input-gpio-keys=y
+CONFIG_PACKAGE_kmod-ipip=y
+CONFIG_PACKAGE_kmod-ipt-account=y
+CONFIG_PACKAGE_kmod-ipt-compat-xtables=y
+CONFIG_PACKAGE_kmod-ipt-condition=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-extra=y
+CONFIG_PACKAGE_kmod-ipt-filter=y
+CONFIG_PACKAGE_kmod-ipt-iface=y
+CONFIG_PACKAGE_kmod-ipt-ipmark=y
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
+CONFIG_PACKAGE_kmod-ipt-iprange=y
+CONFIG_PACKAGE_kmod-ipt-ipv4options=y
+CONFIG_PACKAGE_kmod-ipt-length2=y
+CONFIG_PACKAGE_kmod-ipt-logmark=y
+CONFIG_PACKAGE_kmod-ipt-nflog=y
+CONFIG_PACKAGE_kmod-ipt-nfqueue=y
+CONFIG_PACKAGE_kmod-ipt-proto=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
+CONFIG_PACKAGE_kmod-ipt-tee=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_kmod-ipt-u32=y
+CONFIG_PACKAGE_kmod-ipt-ulog=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-textsearch=y
+CONFIG_PACKAGE_kmod-macvlan=y
+CONFIG_PACKAGE_kmod-netlink-diag=y
+# CONFIG_PACKAGE_kmod-nf-ipt6 is not set
+CONFIG_PACKAGE_kmod-nfnetlink=y
+CONFIG_PACKAGE_kmod-nfnetlink-log=y
+CONFIG_PACKAGE_kmod-nfnetlink-queue=y
+# CONFIG_PACKAGE_kmod-ppp is not set
+CONFIG_PACKAGE_kmod-sched=y
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-veth=y
+CONFIG_PACKAGE_kmod-vxlan=y
+CONFIG_PACKAGE_libbfd=y
+CONFIG_PACKAGE_libbpf=y
+CONFIG_PACKAGE_libbz2=y
+CONFIG_PACKAGE_libconfig=y
+CONFIG_PACKAGE_libdw=y
+CONFIG_PACKAGE_libelf=y
+# CONFIG_PACKAGE_libf2fs is not set
+CONFIG_PACKAGE_libfdisk=y
+CONFIG_PACKAGE_libgpiod=y
+CONFIG_PACKAGE_libiwinfo=y
+CONFIG_PACKAGE_libiwinfo-data=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-lua=y
+CONFIG_PACKAGE_libmnl=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_libpcap=y
+CONFIG_PACKAGE_libpopt=y
+CONFIG_PACKAGE_librrd1=y
+CONFIG_PACKAGE_libstdcpp=y
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libugpio=y
+# CONFIG_PACKAGE_libustream-wolfssl is not set
+# CONFIG_PACKAGE_libwolfssl is not set
+CONFIG_PACKAGE_linuxptp=y
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-opkg=y
+CONFIG_PACKAGE_luci-app-statistics=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-base=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-network=y
+CONFIG_PACKAGE_luci-mod-status=y
+CONFIG_PACKAGE_luci-mod-system=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+# CONFIG_PACKAGE_mkf2fs is not set
+# CONFIG_PACKAGE_mtd is not set
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_netcat=y
+CONFIG_PACKAGE_nstat=y
+CONFIG_PACKAGE_openssh-sftp-server=y
+# CONFIG_PACKAGE_ppp is not set
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-file=y
+CONFIG_PACKAGE_rpcd-mod-iwinfo=y
+CONFIG_PACKAGE_rpcd-mod-luci=y
+CONFIG_PACKAGE_rrdtool1=y
+CONFIG_PACKAGE_rsync=y
+CONFIG_PACKAGE_smcroute=y
+CONFIG_PACKAGE_socat=y
+CONFIG_PACKAGE_ss=y
+CONFIG_PACKAGE_tc-full=y
+CONFIG_PACKAGE_tc-mod-iptables=y
+CONFIG_PACKAGE_tcpdump=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+CONFIG_PACKAGE_zlib=y
+CONFIG_PREINITOPT=y
+CONFIG_STRIP_ARGS="--strip-all"
+CONFIG_TARGET_OPTIMIZATION="-O2 -pipe -marm -mcpu=cortex-a8 -mfpu=neon"
+CONFIG_TARGET_OPTIONS=y
+CONFIG_TARGET_PREINIT_DISABLE_FAILSAFE=y
+CONFIG_TARGET_PREINIT_TIMEOUT=0
+CONFIG_USE_LIBSTDCXX=y
+# CONFIG_USE_SSTRIP is not set
+CONFIG_USE_STRIP=y
+# CONFIG_USE_UCLIBCXX is not set
+CONFIG_VERSIONOPT=y
+CONFIG_VERSION_BUG_URL=""
+CONFIG_VERSION_CODE=""
+CONFIG_VERSION_DIST="OpenWrt"
+CONFIG_VERSION_HOME_URL=""
+CONFIG_VERSION_HWREV=""
+CONFIG_VERSION_MANUFACTURER="MIET"
+CONFIG_VERSION_MANUFACTURER_URL="https://miet.ru"
+CONFIG_VERSION_NUMBER=""
+CONFIG_VERSION_PRODUCT="TI AM335x MIET"
+CONFIG_VERSION_REPO=""
+CONFIG_VERSION_SUPPORT_URL=""
+CONFIG_ZLIB_OPTIMIZE_SPEED=y
+CONFIG_boost-compile-visibility-hidden=y
+CONFIG_boost-runtime-shared=y
+CONFIG_boost-shared-libs=y
+CONFIG_boost-variant-release=y
+# CONFIG_IFSTAT_SNMP is not set
+CONFIG_PACKAGE_kmod-lib-crc-ccitt=y
+# CONFIG_PACKAGE_libnetsnmp is not set
+# CONFIG_PACKAGE_libpci is not set
+# CONFIG_VERSION_CODE_FILENAMES is not set
+# CONFIG_VERSION_FILENAMES is not set
